@@ -1,0 +1,8 @@
+name: NowAnnounce
+version: 1.0
+main: de.tiostitch.announces.Main
+description: Um plugin customizavel de anúncios.
+commands:
+  anunciar:
+    aliases: [anúnciar, fazeranuncio, realizaranuncio]
+    description: O comando para realizar anuncios.

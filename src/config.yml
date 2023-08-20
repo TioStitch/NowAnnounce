@@ -1,0 +1,36 @@
+settings:
+  anunciar-título: "§a§lSUCESSO!"
+  anunciar-subtitulo: "§7Você realizou um anúncio!"
+  anunciar-permissão: "SPECAnnounce.Anunciar"
+  censura-staff-perm: "SPECAnnonce.Censura"
+  censura-bypass: "SPECAnnounce.Censura.Bypass"
+
+  anuncio-censura-click: "§e[Clique para punir]"
+  anuncio-censura-evento: "/mute %player% 2h Utilização de Palavras Proíbidas."
+
+  #%tag% é a tag do jogador pelo Vault.
+  #%player% você pode pegar o jogador.
+  #%anuncio% é o anúncio do jogador.
+
+  #anunciar-aviso-staff - %palavra-click% é a palavra com click para mutar.
+  #para desativar todos os titulos, deixe todos em false.
+  anunciar-individuo: "§c[Anúcio] §7Opa, calma aí! Você foi pego anunciando com palavras proíbidas."
+  anunciar-mensagem: "§b[Anúncio] §c%tag% §f%player% §e%anuncio%"
+  anunciar-aviso-staff: "§c[Anúncio] §7o jogador %player% foi pego utilizando palavras proibidas em seus anúncios!"
+  anunciar-staff-titulo: "§c§lCENSURA"
+  anunciar-staff-subtitulo: "§7Um anunciante foi censurado!" #%player% para saber o anunciante.
+
+toggles:
+  anunciar-com-titulo: true #O titulo é enviado.
+  anunciar-com-subtitulo: true #O subtitulo é enviado.
+  censurar-palavras-proibidas: true #Ativa o modo de palavras-proibidas
+  avisar-censura-staff: true #Avisa os staffs quando alguém usar palavras proibidas.
+
+  anunciar-staff-titulo: true #O titulo é enviado aos que tem permissão.
+  anunciar-staff-subtitulo: true #O titulo é enviado aos que tem permissão também.
+  avisar-individio-censura: true #Avisa o jogador que foi censurado.
+
+palavras-proibidas:
+  - FDP
+  - Loser
+  - Noob
